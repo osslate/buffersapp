@@ -1,0 +1,29 @@
+{
+  "name": "buffersapp",
+  "version": "0.0.1",
+  "description": "A beautiful, modern, cross platform IRC client.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/buffersapp/buffersapp.git"
+  },
+  "keywords": [
+    "irc",
+    "gui",
+    "client",
+    "im",
+    "chat"
+  ],
+  "author": "Fionn Kelleher",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/buffersapp/buffersapp/issues"
+  },
+  "homepage": "https://github.com/buffersapp/buffersapp",
+  "devDependencies": {
+    "grunt": "~0.4.2"
+  }
+}
