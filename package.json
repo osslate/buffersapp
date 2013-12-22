@@ -23,7 +23,7 @@
     "url": "https://github.com/buffersapp/buffersapp/issues"
   },
   "homepage": "https://github.com/buffersapp/buffersapp",
-  "devDependencies": {
-    "grunt": "~0.4.2"
+  "dependencies": {
+    "irc-message-stream": "~1.0.0"
   }
 }
