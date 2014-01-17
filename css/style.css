@@ -205,6 +205,9 @@ article .footer div {
 
 .input {
     flex: 1 0 auto;
+    border: none;
+    padding: 0 0 4px 0;
+    outline: none;
 }
 
 .timestamp {
