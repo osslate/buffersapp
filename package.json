@@ -10,13 +10,15 @@
     "type": "git",
     "url": "https://github.com/buffersapp/buffersapp.git"
   },
-  "keywords": [
-    "irc",
-    "gui",
-    "client",
-    "im",
-    "chat"
-  ],
+  "window": {
+    "title": "Buffers",
+    "toolbar": false,
+    "frame": true,
+    "width": 800,
+    "height": 600,
+    "min_width": 600,
+    "min_height": 200
+  },
   "author": "Fionn Kelleher",
   "license": "BSD-2-Clause",
   "bugs": {
