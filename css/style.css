@@ -1,8 +1,15 @@
 @font-face {
-font-family: FontAwesome;
-src:
-    local('FontAwesome'),
-    url('../font/fontawesome-webfont.ttf');
+    font-family: FontAwesome;
+    src: url('../font/fontawesome-webfont.ttf');
+}
+
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 html, body {
@@ -19,6 +26,7 @@ body {
 	overflow: hidden;
 	display: flex;
 	flex-direction: column;
+	-webkit-animation: fadein 0.5s;
 }
 
 footer {
