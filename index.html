@@ -1,197 +1,62 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Buffers</title>
-	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
-    <meta charset="utf-8">
-</head>
 
-<body>
-<main>
-	<nav>
-        <section class="channels">
-            <a href="#" class="header">Freenode</a>
-            <ul>
-                <li>##<em>internet</em><span class="unread">41</span></li>
-                <li>##<em>website</em></li>
-                <li>##<em>sexting</em><span class="unread highlight">420</span></li>
-                <li class="active">#<em>buffersapp</em></li>
-            </ul>
-        </section>
-        <section class="footer">
-            <div></div><div></div><div></div>
-        </section>
-    </nav>
-    
-	<article>
-        <section class="chanheader">
-            Official Buffers App discussion channel | https://github.com/buffersapp/buffersapp
-        </section>
-        <section class="chatpane">
-            <div class="chatline">
-                <div class="chatnick">expr</div>
-                <div class="dot-square dot-red"></div>
-                <div class="chatbody">hello world</div>
-                <div class="timestamp">16:08</div>
-            </div>
-            <div class="chatline">
-                <div class="chatnick">acous</div>
-                <div class="dot-square dot-green"></div>
-                <div class="chatbody">hiyo</div>
-                <div class="timestamp">16:09</div>
-            </div>
-            <div class="chatline">
-                <div class="chatnick"></div>
-                <div class="dot-hcircle dot-blue"></div>
-                <div class="chatstatus"><em>TorpedoSkyline left</em> (TorpedoSk@133.71.3.37)</div>
-                <div class="timestamp">16:14</div>
-            </div>
-            <div class="chatline">
-                <div class="chatnick"></div>
-                <div class="dot-circle dot-blue"></div>
-                <div class="chatstatus"><em>TorpedoSkyline joined</em> (TorpedoSk@133.71.3.37)</div>
-            </div>
-            <div class="chatline">
-                <div class="chatnick">TorpedoSkyline</div>
-                <div class="dot-square dot-blue"></div>
-                <div class="chatbody">hiyo</div>
-            </div>
-            <div class="chatline">
-                <div class="chatnick">expr</div>
-                <div class="dot-square dot-red"></div>
-                <div class="chatbody">how does it look when there's more than one line in a message? how does it look when there's more than one line in a message? how does it look when there's more than one line in a message? how does it look when there's more than one line in a message?</div>
-                <div class="timestamp">16:18</div>
-            </div>
-            <div class="chatline">
-                <div class="chatnick"></div>
-                <div class="dot-square dot-red"></div>
-                <div class="chatbody">if you want to at any point, feel free to stick it on the repo</div>
-                <div class="timestamp">16:18</div>
-            </div>
-            <div class="chatline">
-                <div class="chatnick"></div>
-                <div class="dot-square dot-red"></div>
-                <div class="chatbody">I guess I'll work on a python build system to build it on various platforms</div>
-                <div class="timestamp">16:19</div>
-            </div>
-            <div class="chatline">
-                <div class="chatnick"></div>
-                <div class="dot-square dot-red"></div>
-                <div class="chatbody">acous_: any idea how you'll display the topic?</div>
-                <div class="timestamp"></div>
-            </div>
-            <div class="chatline">
-                <div class="chatnick">acous</div>
-                <div class="dot-square dot-green"></div>
-                <div class="chatbody">maybe in the font of "users", not sure yet</div>
-                <div class="timestamp">16:26</div>
-            </div>
-            <div class="chatline">
-                <div class="chatnick"></div>
-                <div class="dot-square dot-green"></div>
-                <div class="chatbody">just glued to the top of the chat pane</div>
-                <div class="timestamp"></div>
-            </div>
-            <div class="chatline">
-                <div class="chatnick">expr</div>
-                <div class="dot-square dot-red"></div>
-                <div class="chatbody">also, note that display: none; breaks the layout when set on .users, we'll probably need to do this when displaying PMs</div>
-                <div class="timestamp">16:29</div>
-            </div>
-        </section>
-        <section class="footer">
-                <div class="chatnick">acous</div>
-                <div class="dot-3"><div></div><div></div><div></div></div>
-                <input type="text" name="input" class="input" />
-                <div class="timestamp">16:20</div>
-        </section>
-    </article>
-    
-	<div class="splitter"></div>
-	<aside>
-        <section class="users">
-            <a href="#" class="header">Users (4)</a>
-            <ul>
-                <li>@ <em>acous</em></li>
-                <li>@ <em>expr</em></li>
-                <li>+ <em>TorpedoSkyline</em></li>
-                <li><em>acous_</em></li>
-                <li><em>baous_</em></li>
-                <li><em>cuckoos</em></li>
-                <li><em>duckys</em></li>
-                <li><em>elephans</em></li>
-                <li><em>firefox</em></li>
-                <li><em>goodyear</em></li>
-                <li><em>harlequin</em></li>
-                <li><em>indian</em></li>
-                <li><em>josehpine</em></li>
-                <li><em>koolaid</em></li>
-                <li><em>lemonjelly</em></li>
-                <li><em>moonshine</em></li>
-                <li><em>nurburgring</em></li>
-                <li><em>octopus</em></li>
-                <li><em>pretty</em></li>
-                <li><em>quaranteen</em></li>
-                <li><em>rosebud</em></li>
-                <li><em>starbucks</em></li>
-                <li><em>telephone</em></li>
-                <li><em>undulations</em></li>
-                <li><em>very</em></li>
-                <li><em>wideload</em></li>
-                <li><em>xylophone</em></li>
-                <li><em>yum</em></li>
-                <li><em>zfs</em></li>
-            </ul>
-        </section>
-        <section class="footer">
-            <div></div><div></div><div></div>
-        </section>
-	</aside>
-</main>
-<script type="text/javascript">
-var w = window, d = document, splitter;
+<html data-ng-app="Buffers">
+    <head>
+        <title>Buffers</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+        <meta charset="utf-8">
+        <script src="js/ext/angular.min.js"></script>
+        <script src="js/buffers.js"></script>
+    </head>
+    <body>
+        <main data-ng-controller="BuffersController">
+           <nav>
+                <section id="channels">
+                    <header>network</header>
+                    <ul>
+                        
+                    </ul>
+                </section>
+                <section class="footer">
+                    <div></div><div></div><div></div>
+                </section>
+            </nav>
+            <article>
+                <section class="chanheader">
+                    topic
+                </section>
+                <section id="lines">
+                    <div class="line">
+                        <div class="nickname">from</div>
+                        <div class="dot-square dot-red"></div>
+                        <div class="message">message</div>
+                        <div class="timestamp">time</div>
+                    </div>
+                </section>
+                <section class="footer">
+                    <div class="nickname">nickname</div>
+                    <div class="dot-3">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <input type="text" id="input"/>
+                    <div class="timestamp">{{ currentTime }}</div>
+                </section>
+            </article>
 
-splitter = {
-	lastX: 0,
-	leftEl: null,
-	rightEl: null,
-
-	init: function(handler, leftEl, rightEl) {
-		var self = this;
-
-		this.leftEl = leftEl;
-		this.rightEl = rightEl;
-
-		handler.addEventListener('mousedown', function(evt) {
-			evt.preventDefault();	/* prevent text selection */
-
-			self.lastX = evt.clientX;
-
-			w.addEventListener('mousemove', self.drag);
-			w.addEventListener('mouseup', self.endDrag);
-		});
-	},
-
-	drag: function(evt) {
-		var wL, wR, wDiff = evt.clientX - splitter.lastX;
-
-		wL = d.defaultView.getComputedStyle(splitter.leftEl, '').getPropertyValue('width');
-		wR = d.defaultView.getComputedStyle(splitter.rightEl, '').getPropertyValue('width');
-		wL = parseInt(wL, 10) + wDiff;
-		wR = parseInt(wR, 10) - wDiff;
-		splitter.leftEl.style.width = wL + 'px';
-		splitter.rightEl.style.width = wR + 'px';
-
-		splitter.lastX = evt.clientX;
-	},
-
-	endDrag: function() {
-		w.removeEventListener('mousemove', splitter.drag);
-		w.removeEventListener('mouseup', splitter.endDrag);
-	}
-};
-
-splitter.init(d.getElementsByClassName('splitter')[0], d.getElementsByTagName('article')[0], d.getElementsByTagName('aside')[0]);
-</script>
-</body>
+            <div class="splitter"></div>
+            <aside>
+                <section class="users">
+                    <header>Users (0)</header>
+                    <ul>
+                        
+                    </ul>
+                </section>
+                <section class="footer">
+                    <div></div><div></div><div></div>
+                </section>
+            </aside>
+        </main>
+    </body>
 </html>

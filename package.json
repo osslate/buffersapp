@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/buffersapp/buffersapp",
   "dependencies": {
-    "irc-message-stream": "~1.0.0"
+    "irc-message-stream": "~1.0.0",
+    "moment": "~2.5.0"
   }
 }

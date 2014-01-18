@@ -53,7 +53,7 @@ nav ul .active {
     color: #C8E1FF;
 }
 
-.channels {
+#channels {
     flex: 9 1 auto;
 	width: 120px;
 	min-width: 110px;
@@ -168,7 +168,7 @@ article {
     min-height: 21px;
     overflow: hidden;
 }
-article .chatpane {
+article #lines {
     display: table-cell;
 	border: none;
 	flex: auto;
@@ -189,21 +189,21 @@ article .footer div {
     align-self: center;
 }
 
-.chatline {
+.line {
     display: flex;
     justify-content: space-between;
 }
-.chatnick {
+.nickname {
     text-align: right;
     color: #BBB;
     flex: 0 0 150px;
 }
-.chatbody {
+.message {
     color: #262626;
     flex: 1 1 auto;
 }
 
-.input {
+#input {
     flex: 1 0 auto;
     border: none;
     padding: 0 0 4px 0;
@@ -283,7 +283,7 @@ article .footer div {
 	cursor: col-resize;
 }
 
-.header {
+header {
     text-decoration: none;
     text-transform:uppercase;
     color: #BBB;
