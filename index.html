@@ -6,16 +6,29 @@
         <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
         <meta charset="utf-8">
         <script src="js/ext/angular.min.js"></script>
+        <!-- bootstrap -->
         <script src="js/buffers.js"></script>
+        <script src="js/config_manager.js"></script>
+        <!-- IRC related services -->
+        <script src="js/irc/socket.js"></script>
+        <script src="js/irc/servers_manager.js"></script>
+        <script src="js/irc/network.js"></script>
     </head>
     <body>
         <main data-ng-controller="BuffersController">
            <nav>
-                <section id="channels">
-                    <header>network</header>
-                    <ul>
-                        
-                    </ul>
+                <section id="buffers">
+                    <div data-ng-repeat="network in networks">
+                        <header>{{network.title}}</header>
+                        <ul>
+                            <li data-ng-repeat="channels in network.channels">
+                                <span data-ng-show="channel.prefix">{{channel.prefix}}</span><em>{{channel.name}}</em>
+                            </li>
+                            <li data-ng-repeat="query in network.queries">
+                                <em>{{query.name}}</em>
+                            </li>
+                        </ul>
+                    </div>
                 </section>
                 <section class="footer">
                     <div></div><div></div><div></div>
