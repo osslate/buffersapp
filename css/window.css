@@ -1,0 +1,138 @@
+@font-face {
+    font-family: FontAwesome;
+    src: url('../font/fontawesome-webfont.ttf');
+}
+
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+html {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+    line-height: 21px;
+    font-family: "Helvetica Neue", Helvetica, Arial;
+    font-size: 12px;
+    background-color: #F9F8F8
+}
+
+body {
+    padding: 30px 32px;
+    margin: 0;
+}
+
+main {
+    display: flex;
+}
+
+#connection-network {
+    flex: 1 1 auto;
+}
+
+#connection-identity {
+    flex: 0 1 200px;
+}
+
+#connect-to {
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+#connect-to input {
+    margin: 1px 16px 0 3px;
+    border: none;
+    border-bottom: 1px solid #CCC;
+    padding-left: 3px;
+    font-size: 18px;
+    background: none;
+    color: #666;
+    flex: 1 0 auto;
+}
+
+#connect-to a {
+    font-family: FontAwesome;
+    text-decoration: none;
+    color: #AAA;
+    font-size: 14px;
+    padding-right: 4px;
+}
+
+#editservers {
+    background-color: #FFF;
+    border: 1px solid #D4D4D4;
+    margin-top: 18px;
+    padding: 5px 10px 10px 10px;
+    flex-direction: column;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+table * {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+th {
+    text-align: left;
+    text-decoration: none;
+    text-transform:uppercase;
+    color: #BBB;
+    font-size: 10px;
+    font-weight:normal;
+}
+
+tr {
+    font-size: 13px;
+    color: #777;
+    -webkit-font-smoothing: antialiased;
+}
+
+td input {
+    font-size: 13px;
+    width: 100%;
+    display: flex;
+    color: #777;
+    font-family: "Helvetica Neue", Helvetica, Arial;
+    -webkit-font-smoothing: antialiased;
+    border: 1px solid #CCC;
+    padding: 3px 0;
+}
+
+td:nth-child(1) {
+    padding-right: 8px;
+}
+
+td:nth-child(2) {
+    min-width: 50px;
+    max-width: 90px;
+    padding-right: 8px;
+}
+
+td:nth-child(3) {
+    width: 50px;
+    padding-right: 8px;
+}
+td:nth-child(4), td:nth-child(5) {
+    font-family: FontAwesome;
+    width: 22px;
+    padding-right: 8px;
+}
+
+td:nth-child(6) {
+    font-family: FontAwesome;
+    width: 10px;
+}

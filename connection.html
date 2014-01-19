@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html data-ng-app="Buffers">
+    <head>
+        <title>Connection</title>
+        <link rel="stylesheet" href="css/window.css" type="text/css" media="screen">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <main>
+            <div id="connection-network">
+                <div id="connect-to">
+                    Connect to <input name="networkname" placeholder="Network" autofocus> <a href="#"></a>
+                </div>
+                <div id="editservers">
+                    <table border="0">
+                        <tr>
+                            <th>Server Address</th>
+                            <th>Password</th>
+                            <th>Port</th>
+                            <th>SSL</th>
+                            <th>IPv6</th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <td>wolfe.freenode.net</td>
+                            <td>*****</td>
+                            <td>7000</td>
+                            <td></td>
+                            <td></td>
+                            <td style="color: red;"></td>
+                        </tr>
+                        <tr>
+                            <td><input name="server" placeholder="irc.example.com"></td>
+                            <td><input type="password"></td>
+                            <td><input name="port"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td style="color: green;"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div id="connection-identity"></div>
+        </main>
+        <footer>
+            
+        </footer>
+    </body>
+</html>
