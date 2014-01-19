@@ -27,6 +27,8 @@ body {
 	display: flex;
 	flex-direction: column;
 	-webkit-animation: fadein 0.5s;
+	-webkit-user-select: none;
+	cursor: default;
 }
 
 footer {
@@ -61,7 +63,7 @@ nav ul .active {
     color: #C8E1FF;
 }
 
-#channels {
+#buffers {
     flex: 9 1 auto;
 	width: 120px;
 	min-width: 110px;
@@ -184,6 +186,8 @@ article #lines {
 	overflow-x: hidden;
 	overflow-y: auto;
     vertical-align: bottom;
+    -webkit-user-select: auto;
+    cursor: auto;
 }
 
 article .footer {
